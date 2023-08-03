@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Inter:wght@400;500;600&display=swap");
+
+:root {
+  /* font-size variables */
+  --font-size-extra: 5.6rem;
+  --font-size-xxxl: 3.8rem;
+  --font-size-xxl: 3.2rem;
+  --font-size-xl: 2.4rem;
+  --font-size-lg: 1.8rem;
+  --font-size-md: 1.6rem;
+  --font-size: 1.4rem;
+  --font-size-sm: 1.2rem;
+  --font-size-xs: 1rem;
+
+  /* line-height variables */
+  --line-height: 1.429;
+}

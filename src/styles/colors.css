@@ -1,0 +1,45 @@
+:root {
+  /* color variables */
+  --white: hsl(0deg 0 100);
+  --white-80: hsl(0deg 0 100 / 80%);
+  --white-40: hsl(0deg 0 100 / 40%);
+  --white-0: hsl(0deg 0 100 / 0%);
+  --black: hsl(0deg 14 10);
+  --black-50: hsl(0deg 14 10 / 50%);
+  --black-6: hsl(0deg 14 10 / 6%);
+  --gray-600: hsl(263deg 9 18);
+  --gray-500: hsl(210deg 4 34);
+  --gray-400: hsl(210deg 2 53);
+  --gray-300: hsl(0deg 0 92);
+  --gray-200: hsl(0deg 0 95);
+  --gray-100: hsl(0deg 0 98);
+  --red-300: hsl(359deg 58 46);
+  --red-200: hsl(359deg 65 53);
+  --red-100: hsl(0deg 67 97);
+  --orange-300: hsl(29deg 65 48);
+  --orange-200: hsl(29deg 77 54);
+  --orange-100: hsl(29deg 74 96);
+  --yellow-300: hsl(41deg 76 58);
+  --yellow-200: hsl(41deg 92 62);
+  --yellow-100: hsl(41deg 94 94);
+  --green-300: hsl(147deg 37 32);
+  --green-200: hsl(146deg 37 39);
+  --green-100: hsl(147deg 35 96);
+  --light-blue-300: hsl(219deg 74 95);
+  --light-blue-200: hsl(218deg 73 97);
+  --light-blue-100: hsl(216deg 71 99);
+  --blue-300: hsl(217deg 61 35);
+  --blue-200: hsl(217deg 59 44);
+  --blue-100: hsl(217deg 45 94);
+  --purple-300: hsl(263deg 66 62);
+  --purple-200: hsl(263deg 100 72);
+  --purple-100: hsl(264deg 100 97);
+
+  /* gradient variables */
+  --gradient-blue-moon: radial-gradient(
+      116.01% 64.3% at 17.78% 99.56%,
+      hsl(223deg 63% 60% / 50%) 0%,
+      hsl(166deg 98% 65% / 0%) 100%
+    ),
+    linear-gradient(90deg, hsl(226deg 100% 89%) 0%, hsl(265deg 29% 92%) 100%);
+}
